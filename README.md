@@ -15,7 +15,6 @@ to use for **gamma**, try 2. The higher the gamma, the higher the "focus". If yo
 focal loss becomes the traditional cross-entropy.
 
 Regarding the **alphas** (class-wise weights), from my experience with semantic segmentation, it is really worth it
-to play around with them a bit. Start with an array of ones, and if needed, increase the alpha
-corresponding to the classes under-represented classes.
+to play around with them a bit. Start with an array of ones, and if needed, increase the alpha for under-represented classes.
 
 This code was based on https://github.com/AdeelH/pytorch-multi-class-focal-loss but with some simplifications.
